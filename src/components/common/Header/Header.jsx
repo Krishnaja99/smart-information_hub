@@ -3,7 +3,7 @@ import styles from "./Header.module.css";
 import Button from "@mui/material/Button";
 import smartimslogo from "../assets/SmartIMS Logos/9eb5bb4aa8b0d62a8604aa08b74d.png";
 // import ihubLogo from "../assets/ihubLogo_Violet (1).png";
-import ihubLogo from "../assets/Insurance OR Iformation/output-onlinepngtools (1).png";
+import ihubLogo from "../assets/Insurance OR Iformation/output-onlinepngtools (3).png";
 import MenuItem from "@mui/material/MenuItem";
 import Menu from "@mui/material/Menu";
 import { Link } from "react-router-dom";

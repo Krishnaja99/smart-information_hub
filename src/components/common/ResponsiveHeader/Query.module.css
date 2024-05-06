@@ -1,0 +1,9 @@
+.queryDropdown {
+  margin: 5% 0 0 20%;
+  width: fit-content;
+  display: grid;
+  gap: 20px;
+}
+.queryTextBox {
+  width: 500px;
+}

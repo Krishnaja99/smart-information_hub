@@ -1,0 +1,24 @@
+.definitionCard {
+  margin-top: 0.5%;
+  margin-left: 6%;
+}
+.billingHeader {
+  display: flex;
+}
+.billingTitle {
+  padding-left: 30%;
+  gap: 40%;
+}
+
+.billingTitle button {
+  margin-top: 20px;
+  height: 30px;
+  width: 270px;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(108, 160, 160);
+}
+.goToHome {
+  font-size: larger;
+  text-decoration: underline;
+}

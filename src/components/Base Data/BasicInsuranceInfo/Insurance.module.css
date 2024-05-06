@@ -1,0 +1,10 @@
+.definitionCard {
+  margin-top: 0.5%;
+  margin-left: 6%;
+}
+.returnToHome button {
+  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}

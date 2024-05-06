@@ -1,0 +1,37 @@
+.header {
+  margin: 10px 0px 0px 70px;
+  display: grid;
+  grid-template-columns: 10fr 35fr 10fr;
+  align-items: center;
+}
+.ihubLogo img {
+  height: 100px;
+  width: 290px;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(145, 131, 157);
+  width: auto;
+}
+
+.container_1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  cursor: pointer;
+}
+.learnTogether {
+  text-align: justify;
+  padding-left: 2%;
+  position: relative;
+  font-family: "Roboto Slab";
+  font-size: 15px;
+  color: rgb(17, 150, 191);
+}
+.smartimslogopng img {
+  height: 100px;
+  padding-right: 50px;
+  width: auto;
+}

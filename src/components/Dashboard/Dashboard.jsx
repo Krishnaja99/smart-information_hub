@@ -177,7 +177,9 @@ const Dashboard = () => {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button variant="contained">Learn More</Button>
+              <Button variant="contained" href="/advancements">
+                Learn More
+              </Button>
             </CardActions>
           </Card>
           <Card sx={{ maxWidth: 395, border: "3px solid #ccc" }}>

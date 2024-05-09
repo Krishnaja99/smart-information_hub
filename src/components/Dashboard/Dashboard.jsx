@@ -208,7 +208,13 @@ const Dashboard = () => {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button variant="contained">Learn More</Button>
+              <Button
+                variant="contained"
+                target="_blank"
+                href="https://outlook.office.com/mail/AAMkAGQ5YjA1ZDAxLTk5MGEtNDVjOS05Mjg4LTMwMmUxMjg5Zjg0MQAuAAAAAABXFX4yMsLeSaRtRrCHtDIAAQCSSImQg6nETZGMOO88aUkyAABhwwDuAAA%3D?sourceId=Raghu.Sama%40smartims.com&email=Raghu.Sama%40smartims.com"
+              >
+                Learn More
+              </Button>
             </CardActions>
           </Card>
         </Card>

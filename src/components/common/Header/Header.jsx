@@ -44,22 +44,10 @@ export const Header = () => {
         onClick={handleMenuClose}
         sx={{ fontFamily: "Roboto Slab", fontSize: "18px" }}
       >
-        Shyam Vellala<br></br>Executive Vice President - Insurance <br></br>
-        Email: shyam.vellala@smartims.com
-      </MenuItem>
-
-      <MenuItem
-        component={Link}
-        to="https://teams.microsoft.com/v2/"
-        target="_blank"
-        onClick={handleMenuClose}
-        sx={{ fontFamily: "Roboto Slab", fontSize: "18px" }}
-      >
-        Raghunath Kotturi<br></br>General Manager - Projects
+        Raghunath Kotturi <br></br>General Manager - Projects || Billing
         <br></br>Email: raghunadh.kotturi@smartims.com
-        <hr />
-        <hr />
       </MenuItem>
+      <hr />
       <MenuItem
         component={Link}
         to="https://teams.microsoft.com/v2/"
@@ -67,12 +55,11 @@ export const Header = () => {
         onClick={handleMenuClose}
         sx={{ fontFamily: "Roboto Slab", fontSize: "18px" }}
       >
-        Dilip Gunapalli <br></br>Senior Functional Lead - II
+        Dilip Gunapalli <br></br>Senior Functional Lead - II || Claims
         <br></br>
         Email: dilip.gunapalli@smartims.com
-        <hr />
       </MenuItem>
-
+      <hr />
       <MenuItem
         component={Link}
         to="https://teams.microsoft.com/v2/"
@@ -80,7 +67,7 @@ export const Header = () => {
         onClick={handleMenuClose}
         sx={{ fontFamily: "Roboto Slab", fontSize: "18px" }}
       >
-        Deepa S<br></br>General Manager - Projects
+        Deepa S<br></br>General Manager - Projects || Policy
         <br></br>Email: deepa.sethuraman@smartims.com
       </MenuItem>
     </Menu>

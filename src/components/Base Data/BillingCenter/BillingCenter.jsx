@@ -1,20 +1,12 @@
 import React from "react";
-import styles from "./Billing.module.css";
+import styles from "/workspace/Smart/Smart-Information_Hub/src/components/Utils/Page Styles/Basedata.module.css";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
-import BillingTitle from "./BillingTitle";
-import Button from "@mui/material/Button";
 
 const BillingCenter = () => {
   return (
     <div>
-      {/* <div className={styles.billingHeader}>
-        <Button variant="text" className={styles.goToHome} href="/">
-          {`<`} Return To Home
-        </Button>
-        <BillingTitle />
-      </div> */}
       <Card
         className={styles.definitionCard}
         sx={{ height: "100px", maxWidth: 1200, border: "3px solid #ccc" }}

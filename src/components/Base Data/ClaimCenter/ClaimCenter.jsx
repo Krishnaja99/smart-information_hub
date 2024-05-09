@@ -4,8 +4,8 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import PC_CardsData from "./PC_CardsData";
-import PolicyTransactions from "./PolicyTransactions";
+import CC_CardsData from "./CC_CardsData";
+import ClaimTransactions from "./ClaimTransactions";
 import styles from "/workspace/Smart/Smart-Information_Hub/src/components/Utils/Page Styles/TabwiseData.module.css";
 
 function CustomTabPanel(props) {
@@ -75,10 +75,10 @@ export default function PolicyCenter() {
           </Tabs>
         </Box>
         <CustomTabPanel value={value} index={0}>
-          {value === 0 && <PC_CardsData />}
+          {value === 0 && <CC_CardsData />}
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>
-          {value === 1 && <PolicyTransactions />}
+          {value === 1 && <ClaimTransactions />}
         </CustomTabPanel>
         <CustomTabPanel value={value} index={2}>
           Item Three

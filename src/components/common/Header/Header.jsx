@@ -87,7 +87,11 @@ export const Header = () => {
           >
             Resources
           </Button>
-          <Button variant="contained" style={{ background: "green" }}>
+          <Button
+            variant="contained"
+            style={{ background: "green" }}
+            href="/pill"
+          >
             Products
           </Button>
           <Button

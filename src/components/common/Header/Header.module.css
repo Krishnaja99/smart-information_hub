@@ -5,8 +5,9 @@
   align-items: center;
 }
 .ihubLogo img {
-  height: 100px;
-  width: 290px;
+  height: 150px;
+  margin-top: 30px;
+  width: 300px;
 }
 .logo {
   font-size: 2rem;

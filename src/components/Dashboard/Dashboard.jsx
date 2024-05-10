@@ -12,12 +12,12 @@ import BillingImage from "../common/assets/CardView Images/Billing.png";
 import ClaimsImage from "../common/assets/CardView Images/claims.jpg";
 import EnhancementsImage from "../common/assets/CardView Images/enhancements.jpg";
 import DidYouKnow from "../common/assets/CardView Images/Did You Know.jpg";
-import HeaFooder from "../common/Header/Header";
+import Header from "../common/Header/Header";
 
 const Dashboard = () => {
   return (
     <div>
-      <HeaFooder />
+      <Header />
       <Card>
         <Card className={styles.cards}>
           <Card sx={{ maxWidth: 395, border: "3px solid #ccc" }}>

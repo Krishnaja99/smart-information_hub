@@ -1,18 +1,12 @@
 import React from "react";
-import styles from "./Insurance.module.css";
+import styles from "/workspace/Smart/Smart-Information_Hub/src/components/Utils/Page Styles/Basedata.module.css";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
-import InsuranceTitle from "./InsuranceTitle";
-import billingStyles from "../BillingCenter/Billing.module.css";
-import Button from "@mui/material/Button";
 
 const InsuranceInfo = () => {
   return (
     <div>
-      {/* <div className={billingStyles.billingHeader}>
-        <InsuranceTitle />
-      </div> */}
       <Card
         className={styles.definitionCard}
         sx={{ height: "130px", maxWidth: 1200, border: "3px solid #ccc" }}

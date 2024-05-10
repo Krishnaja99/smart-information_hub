@@ -3,19 +3,10 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import styles from "./Claims.module.css";
-import ClaimTitle from "./ClaimTitle";
-import billingStyles from "../BillingCenter/Billing.module.css";
-import Button from "@mui/material/Button";
 
 const ClaimCardData = () => {
   return (
     <div>
-      {/* <div className={billingStyles.billingHeader}>
-        <Button variant="text" className={styles.goToHome} href="/">
-          {`<`} Return To Home
-        </Button>
-        <ClaimTitle />
-      </div> */}
       <Card
         className={styles.definitionCard}
         sx={{ height: "100px", maxWidth: 1200, border: "3px solid #ccc" }}

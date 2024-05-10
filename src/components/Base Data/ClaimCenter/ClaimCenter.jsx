@@ -6,7 +6,7 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import CC_CardsData from "./CC_CardsData";
 import ClaimTransactions from "./ClaimTransactions";
-import styles from "/workspace/Smart/Smart-Information_Hub/src/components/Utils/Page Styles/TabwiseData.module.css";
+import styles from "../../Utils/Page Styles/TabwiseData.module.css";
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;

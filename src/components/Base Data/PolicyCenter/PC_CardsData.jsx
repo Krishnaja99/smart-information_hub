@@ -2,7 +2,7 @@ import React from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
-import styles from "/workspace/Smart/Smart-Information_Hub/src/components/Utils/Page Styles/Basedata.module.css";
+import styles from "../../Utils/Page Styles/Basedata.module.css";
 
 const PolicyCenter = () => {
   return (

@@ -90,7 +90,7 @@ export const Header = () => {
           <Button
             variant="contained"
             style={{ background: "green" }}
-            href="/pill"
+            href="/dash"
           >
             Products
           </Button>

@@ -1,0 +1,17 @@
+.uploadFile {
+  margin: 100px 0 0 80px;
+}
+.horizontalbutton {
+  display: flex;
+  gap: 12px;
+}
+
+.pagebuttons {
+  display: flex;
+  gap: 12px;
+}
+.quickshortcuts {
+}
+.npm {
+  display: grid;
+}

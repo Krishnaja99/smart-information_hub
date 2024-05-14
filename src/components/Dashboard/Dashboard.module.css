@@ -3,7 +3,7 @@
   margin: auto;
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  margin-top: 20px;
+  margin-top: 1px;
   gap: 20px;
 }
 .cards card {

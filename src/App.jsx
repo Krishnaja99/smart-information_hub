@@ -17,7 +17,7 @@ const App = () => {
     <Router>
       <ResponsiveAppBar />
       <Routes>
-        <Route path="/" element={<Dashboard2 />} />
+        {/* <Route path="/" element={<Dashboard2 />} /> */}
         <Route path="/insuranceintroduction" element={<InsuranceInfo />} />
         <Route path="/claimcenter" element={<ClaimCenter />} />
         <Route path="/billingcenter" element={<BillingData />} />
@@ -26,7 +26,7 @@ const App = () => {
         <Route path="/advancements" element={<Knowledge />} />
         <Route path="/fileupload" element={<InputFileUpload />} />
         <Route path="/transinfo" element={<TransactionInfo />} />
-        {/* <Route path="/dash" element={<Dashboard2 />} /> */}
+         <Route path="/" element={<Dashboard />} />
       </Routes>
     </Router>
   );

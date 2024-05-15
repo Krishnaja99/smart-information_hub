@@ -9,7 +9,7 @@ export default function PolicyTransactions() {
         <div className={styles.subDiv1}>
           <Button
             className={styles.introButton}
-            sx={{ height: "100px", width: "180px" }}
+            sx={{ height: "100px", width: "180px",textTransform: "none" }}
             variant="contained"
             style={{ backgroundColor: "red" }}
             target="_blank"
@@ -35,7 +35,7 @@ export default function PolicyTransactions() {
 
         <div className={styles.subDiv1}>
           <Button
-            sx={{ height: "100px", width: "180px" }}
+            sx={{ height: "100px", width: "180px",textTransform: "none" }}
             variant="contained"
             // style={{ background: "Blue" }}
             target="_blank"
@@ -45,7 +45,7 @@ export default function PolicyTransactions() {
           </Button>
 
           <Button
-            sx={{ height: "100px", width: "180px" }}
+            sx={{ height: "100px", width: "180px",textTransform: "none" }}
             variant="contained"
             // style={{ background: "Blue" }}
             target="_blank"
@@ -59,7 +59,7 @@ export default function PolicyTransactions() {
       <div className={styles.secondDiv}>
         <div className={styles.subDiv1}>
           <Button
-            sx={{ height: "100px", width: "180px" }}
+            sx={{ height: "100px", width: "180px",textTransform: "none" }}
             variant="contained"
             style={{ background: "green" }}
             target="_blank"
@@ -69,7 +69,7 @@ export default function PolicyTransactions() {
           </Button>
 
           <Button
-            sx={{ height: "100px", width: "180px" }}
+            sx={{ height: "100px", width: "180px",textTransform: "none" }}
             variant="contained"
             style={{ background: "green" }}
             target="_blank"
@@ -81,7 +81,7 @@ export default function PolicyTransactions() {
 
         <div className={styles.subDiv1}>
           <Button
-            sx={{ height: "100px", width: "180px" }}
+            sx={{ height: "100px", width: "180px",textTransform: "none" }}
             variant="contained"
             target="_blank"
             // style={{ background: "blue" }}
@@ -90,7 +90,7 @@ export default function PolicyTransactions() {
             Work Item Assistants
           </Button>
           <Button
-            sx={{ height: "100px", width: "180px" }}
+            sx={{ height: "100px", width: "180px",textTransform: "none" }}
             variant="contained"
             target="_blank"
             // style={{ backgroundColor: "blue" }}

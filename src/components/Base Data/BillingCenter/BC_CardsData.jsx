@@ -2,6 +2,7 @@ import React from "react";
 import Tooltip from "@mui/material/Tooltip";
 import styles from "./Billing.module.css";
 
+
 const definitions = [
   { title: "Agency Bill", description: "Money is sent through the producer." },
   { title: "Billing Process", description: "Process by which the carrier manages the financial transactions required to keep policies in force." },
@@ -33,15 +34,33 @@ const definitions = [
   { title: "Write Off", description: "WriteOff allows Billing Center to cancel assets (Charges) held in charge invoicing." }
 ];
 
+// const useStyles = makeStyles((theme) => ({
+//   tooltip: {
+//     backgroundColor: "rgba(0, 0, 0, 0.87)",
+//     fontSize: "0.875rem",
+//     transition: "font-size 0.3s ease",
+//   },
+//   arrow: {
+//     color: "rgba(0, 0, 0, 0.87)",
+//   },
+// }));
+
 const BillingCenter = () => {
+  // const classes = useStyles();
+
   return (
     <div className={styles.mainDiv}>
       <div className={styles.definitionsContainer}>
         {definitions.map((def, index) => (
-          <Tooltip key={index} title={def.description} arrow>
+          <Tooltip
+            key={index}
+            title={<span className={styles.tooltipDescription}>{def.description}</span>}
+            // classes={{ tooltip: classes.tooltip, arrow: classes.arrow }}
+            arrow
+          >
             <div className={styles.definitionItem}>
               {def.title}
-            </div>
+              </div>
           </Tooltip>
         ))}
       </div>

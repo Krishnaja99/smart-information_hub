@@ -68,16 +68,21 @@ const definitions = [
 const PolicyCenter = () => {
   return (
     <div className={styles.mainDiv}>
-      <div className={styles.definitionsContainer}>
-        {definitions.map((def, index) => (
-          <Tooltip key={index} title={def.description} arrow>
-            <div className={styles.definitionItem}>
-              {def.title}
+    <div className={styles.definitionsContainer}>
+      {definitions.map((def, index) => (
+        <Tooltip
+          key={index}
+          title={<span className={styles.tooltipDescription}>{def.description}</span>}
+          // classes={{ tooltip: classes.tooltip, arrow: classes.arrow }}
+          arrow
+        >
+          <div className={styles.definitionItem}>
+            {def.title}
             </div>
-          </Tooltip>
-        ))}
-      </div>
+        </Tooltip>
+      ))}
     </div>
+  </div>
   );
 };
 

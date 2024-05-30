@@ -14,9 +14,21 @@
 .definitionItem {
   padding: 10px;
   background-color: #f9fbfce0;
+  transition: color 0.3s ease; /* Smooth transition effect */
   border: 1px solid #0e0af0;
   border-radius: 4px;
   cursor: pointer;
   width: 180px;
   text-align: center;
+}
+.definitionItem:hover {
+  color: blue; /* Text color on hover */
+}
+definitionItemDescription {
+  font-size: 14px;
+  
+}
+.tooltipDescription {
+  font-size: 15px;
+  color:white;
 }

@@ -8,7 +8,8 @@ import ResponsiveAppBar from "./components/common/ResponsiveHeader/ResponsiveApp
 import InsuranceInfo from "./components/Base Data/BasicInsuranceInfo/InsuranceInfo";
 import HaveAQuery from "./components/common/ResponsiveHeader/HaveAQuery";
 import Knowledge from "./components/Base Data/Advancement/Knowledge";
-import Dashboard2 from "./components/Dashboard2/Dashboard2";
+// import cardinfo from "./components/Base Data/BillingCenter/CardInfo";
+// import Dashboard2 from "./components/Dashboard2/Dashboard2";
 import InputFileUpload from "./components/Testing/FileUpload";
 import TransactionInfo from "./components/Testing/TransactionInfo";
 
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/advancements" element={<Knowledge />} />
         <Route path="/fileupload" element={<InputFileUpload />} />
         <Route path="/transinfo" element={<TransactionInfo />} />
+        {/* <Route path="/cardinfo" element={<CardInfo />} /> */}
          <Route path="/" element={<Dashboard />} />
       </Routes>
     </Router>

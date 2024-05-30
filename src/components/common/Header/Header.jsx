@@ -3,7 +3,7 @@ import styles from "./Header.module.css";
 import Button from "@mui/material/Button";
 import smartimslogo from "../assets/SmartIMS Logos/9eb5bb4aa8b0d62a8604aa08b74d.png";
 // import ihubLogo from "../assets/ihubLogo_Violet (1).png";
-import ihubLogo from "../assets/Insurance OR Iformation/Exact Green.png";
+import ihubLogo from "../assets/Insurance OR Iformation/Bulb.png";
 import MenuItem from "@mui/material/MenuItem";
 import Menu from "@mui/material/Menu";
 import { Link } from "react-router-dom";
@@ -77,19 +77,19 @@ export const Header = () => {
     <div>
       <div className={styles.header}>
         <div className={styles.ihubLogo}>
-          <img src={ihubLogo} alt="" />
+          <img style={{height:"100px", width:"350px"}} src={ihubLogo} alt="" />
         </div>
         <div className={styles.container_1}>
           <Button
             variant="contained"
-            sx={{ background: "green" }}
+            // sx={{ background: "green" }}
             onClick={handleProfileMenuOpen}
           >
             Resources
           </Button>
           <Button
             variant="contained"
-            style={{ background: "green" }}
+            // style={{ background: "green" }}
             href="/dash"
           >
             Products
@@ -97,7 +97,7 @@ export const Header = () => {
           <Button
             variant="contained"
             href="https://www.smartims.com/"
-            style={{ background: "green" }}
+            // style={{ background: "green" }}
             target="_blank"
           >
             About SmartIms

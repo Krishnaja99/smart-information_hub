@@ -7,6 +7,7 @@ import Box from "@mui/material/Box";
 import PC_CardsData from "./PC_CardsData";
 import PolicyTransactions from "./PolicyTransactions";
 import styles from "../../Utils/Page Styles/TabwiseData.module.css";
+import PolicyVideo from "../PolicyCenter/PolicyVideo" ;
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -71,7 +72,10 @@ export default function PolicyCenter() {
               onClick={handleItemClick}
               {...a11yProps(1)}
             />
-            <Tab label="Self Guided Video" {...a11yProps(2)} />
+            <Tab label="Self Guided Video"
+             onClick={handleItemClick}
+            {...a11yProps(2)}
+             />
           </Tabs>
         </Box>
         <CustomTabPanel value={value} index={0}>
@@ -81,7 +85,7 @@ export default function PolicyCenter() {
           {value === 1 && <PolicyTransactions />}
         </CustomTabPanel>
         <CustomTabPanel value={value} index={2}>
-          Item Three
+        {value === 2 && <PolicyVideo />}
         </CustomTabPanel>
       </Box>
     </div>

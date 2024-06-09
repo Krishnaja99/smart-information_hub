@@ -7,8 +7,9 @@ import Box from "@mui/material/Box";
 import BC_CardsData from "./BC_CardsData";
 import BillingTransactions from "./BillingTransactions";
 import styles from "../../Utils/Page Styles/TabwiseData.module.css";
-import CardInfo from "../BillingCenter/CardInfo";
+import BillingVideo from "./BillingVideo";
 import { Card } from "@mui/material";
+
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -87,7 +88,7 @@ export default function PolicyCenter() {
           {value === 1 && <BillingTransactions />}
         </CustomTabPanel>
         <CustomTabPanel value={value} index={2}>
-         {value === 2 && <CardInfo/>}
+        {value === 2 && <BillingVideo/>}
         </CustomTabPanel>
       </Box>
     </div>

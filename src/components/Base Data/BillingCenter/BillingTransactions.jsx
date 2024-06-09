@@ -12,9 +12,10 @@ export default function PolicyTransactions() {
           variant="contained"
           style={{ backgroundColor: "red" }}
           target="_blank"
-          href=""
+          href="https://smartims.sharepoint.com/:t:/s/ChennasDirect/EWr3Aqh-1hZLub31WLCLsfkB3lKBJ_gZ5WZIi5HWKT5GAg?e=WoKxdx"
         >
-         Introduction to Billing Center
+         {/* Introduction to Billing Center */}
+         Testing 
         </Button>
  
         <Button

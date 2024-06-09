@@ -7,6 +7,7 @@ import Box from "@mui/material/Box";
 import CC_CardsData from "./CC_CardsData";
 import ClaimTransactions from "./ClaimTransactions";
 import styles from "../../Utils/Page Styles/TabwiseData.module.css";
+import ClaimVideo from "./ClaimVideo";
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -81,7 +82,7 @@ export default function PolicyCenter() {
           {value === 1 && <ClaimTransactions />}
         </CustomTabPanel>
         <CustomTabPanel value={value} index={2}>
-          Item Three
+        {value === 2 && <ClaimVideo />}
         </CustomTabPanel>
       </Box>
     </div>

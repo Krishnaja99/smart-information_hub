@@ -121,7 +121,7 @@ export default function ResponsiveAppBar() {
               color: "white",
             }}
           >
-            Smart I-Hub
+            I KNOW 
           </Button>
 
           {/* <Search>

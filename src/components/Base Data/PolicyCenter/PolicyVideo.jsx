@@ -19,13 +19,19 @@ export default function ClaimVideo() {
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     height: "250px",
-    width: "250px",
-    textTransform: "none"
+    marginLeft :"30%",
+    width: "550px",
+    
+    textTransform: "none",
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'flex-end',
+    alignItems: 'center'
   }}
   variant="contained"
   target="_blank"
- style={{ color: 'Black' }}
- style={{ fontSize: '20px' }}
+  style={{ color: 'yellow', fontSize:'20px'}}
+ 
  
  href="https://smartims.sharepoint.com/:f:/s/SmartIHubInsuranceInformation/Elz62sjNVZ9PsI6Xh7_0K1ABLgy93db4WcQEDj__G1d9cA?e=phftD1"
 >

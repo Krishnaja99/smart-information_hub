@@ -89,10 +89,13 @@ export const Header = () => {
           </Button>
           <Button
             variant="contained"
+            href="https://smartims.sharepoint.com/:x:/s/SmartIHubInsuranceInformation/ESVpDPSo60xBvgj9910-hrMBRaqQ5t6owlj2lsbN6gqhqQ?e=vMFxBz"
             // style={{ background: "green" }}
-            href="/dash"
-          >
-            Products
+            target="_blank"
+
+            // style={{ background: "green" }}
+            >
+            Introduction to Insuarnce
           </Button>
           <Button
             variant="contained"

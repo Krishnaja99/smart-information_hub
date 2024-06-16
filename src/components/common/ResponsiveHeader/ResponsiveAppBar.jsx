@@ -121,7 +121,7 @@ export default function ResponsiveAppBar() {
               color: "white",
             }}
           >
-            I KNOW 
+            I KNOW (Insuarnce/Information)
           </Button>
 
           {/* <Search>

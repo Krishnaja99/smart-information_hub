@@ -34,16 +34,14 @@ const Dashboard = () => {
                 component="div"
                 sx={{ fontFamily: "Roboto Slab" }}
               >
-                Introduction To Insurance
+                Line of Business
               </Typography>
               <Typography
                 variant="body2"
                 color="text.secondary"
                 sx={{ fontFamily: "Roboto Slab", fontSize: "18px" }}
               >
-                Insurance is a contract that transfers the risk of something bad
-                happening to an insurance company, in exchange for financial
-                protection or reimbursement.
+                A line of business (LOB) is a set of information that is used to define a type of product offered by an insurer
               </Typography>
             </CardContent>
             <CardActions>

@@ -1,60 +1,76 @@
-import React from "react";
-import Tooltip from "@mui/material/Tooltip";
-import styles from "./ins.module.css";
+import * as React from 'react';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select, { SelectChangeEvent } from '@mui/material/Select';
+import { yellow } from '@mui/material/colors';
+import { colors } from '@mui/material';
 
-const insuranceDefinitions = [
-  { 
-    title: "Insurance", 
-    description: "Insurance is a means of protection from financial loss in which, in exchange for a fee, a party agrees to compensate another party in the event of a certain loss, damage, or injury. It is a form of risk management, primarily used to protect against the risk of a contingent or uncertain loss." 
-  },
-  { 
-    title: "Business Owners", 
-    description: "A business owner policy (BOP) combines protection for all major property and liability risks in one insurance package. This type of policy assembles the basic coverages required by a business owner in one bundle. However, it is usually sold at a premium that is less than the total cost of the individual coverages." 
-  },
-  { 
-    title: "Commercial Property", 
-    description: "Commercial Property Insurance covers your Business’s Real Estate and its Contents. It helps pay for Repair or Replacement when Business Property is Lost, Damaged, or Destroyed." 
-  },
-  { 
-    title: "General Liability", 
-    description: "General liability insurance provides coverage for common liability claims from third parties (people outside your business). This business insurance policy covers legal defense costs if someone sues over a bodily injury, property damage, or advertising injury. Your policy can pay for everything from hiring a lawyer to court-ordered judgments and settlements. General liability insurance covers common business risks like customer injury, customer property damage, and advertising injury. It protects your small business from the high costs of lawsuits and helps you qualify for leases and contracts." 
-  },
-  { 
-    title: "Home Owners", 
-    description: "Homeowners insurance provides protection against the financial consequences of losses related to owning and renting a home. It is a combination of property and liability coverages." 
-  },
-  { 
-    title: "Inland Marine", 
-    description: "Inland marine insurance protects your business property when it’s in transit or stored at a site other than your main business location. OR It covers any property that is movable, transportable, or involved in transferring information." 
-  },
-  { 
-    title: "Personal Auto", 
-    description: "Personal Auto Insurance covers accidents that occur while you’re driving your vehicle for personal use. That includes commuting to and from work and travel unrelated to your job duties. Policies typically insure the owner of the vehicle and one or two immediate family members." 
-  },
-  { 
-    title: "Commercial Auto", 
-    description: "Commercial Auto Insurance costs more than personal auto insurance. That's because commercial policies tend to have higher limits, which means more coverage in the event of an accident." 
-  },
-  { 
-    title: "Workers Compensation", 
-    description: "The Workmen's Compensation policy provides payment for legal compensation to Employees or their dependents in case of injury and accident of the employees at workplace (including certain occupational disease) arising out of and in the course of employment and resulting in disablement or death." 
-  }
-];
+export default function SelectVariants() {
+  const [age, setAge] = React.useState('');
+  
 
-const InsuranceInfo = () => {
+  const handleChange = (event: SelectChangeEvent) => {
+    const selectedValue = event.target.value;
+    setAge(selectedValue);
+
+    if (selectedValue === 10) {
+      window.open('https://smartims.sharepoint.com/:p:/s/SmartIHubInsuranceInformation/EUy1WEYNR6BMj87Vs3O6CQcBFzEFlfMqe4OYIMQSDPDlFA?e=vjwGARhttps://smartims.sharepoint.com/:p:/s/SmartPortalihub/EfUWnyHCUAtFkmOiXR3FEYMBHQnhKU9rPRNK7j7YPr5fqw?e=dgRtTqhttps://smartims.sharepoint.com/:f:/s/SmartIHubInsuranceInformation/EvmTvjgdIFRHq3oHGnMjdFUBzmBInB9u1-Yn_wTq652MwQ?e=n4NbKc%27'
+, '_blank');
+    } else if (selectedValue === 20) {
+      window.open('https://smartims.sharepoint.com/:p:/s/SmartIHubInsuranceInformation/EedVtZEsG1xFpNCjJnPANp8B02SdsUGYnrb6UFk9HsGRTg?e=DL2aXX%27', '_blank');
+    } else if (selectedValue === 30) {
+      window.open('https://smartims.sharepoint.com/:p:/s/SmartIHubInsuranceInformation/EVuOWdrQLFpIlh6tHao5NMsBQu5nJ9oK5I4197aFnr0A2w?e=v1FQnj%27', '_blank');
+    }
+    else if (selectedValue === 40) {
+      window.open('https://smartims.sharepoint.com/:p:/s/SmartIHubInsuranceInformation/EUQbciVTIMJIh69W2R4fMPcB5OuWf04xWjfPnDA-S2iJbw?e=eqLYcc%27', '_blank');
+    }
+    else if (selectedValue === 50) {
+      window.open('https://smartims.sharepoint.com/:p:/s/SmartIHubInsuranceInformation/EVaxIfd4p7pEreoH2dTFKyUBBBwqjG2IyAQwsPRtp3X9YQ?e=7MBdEf%27', '_blank');
+    }
+    else if (selectedValue === 60) {
+      window.open('https://smartims.sharepoint.com/:p:/s/SmartIHubInsuranceInformation/EZSilzOZUdxIkP_jSpxPzqABN5FUDZTG3QE0FuHG6Jp3mw?e=5iQVkf%27', '_blank');
+    }
+    else if (selectedValue === 70) {
+      window.open('https://smartims.sharepoint.com/:p:/s/SmartIHubInsuranceInformation/Eb2OYVMxBoxDt4fqLkOPgBQBJbiDZVkjCn3GgCNXCouXFA?e=gyvxJl%27', '_blank');
+    }
+
+
+
+
+
+  };
+
   return (
-    <div className={styles.mainDiv}>
-      <div className={styles.definitionsContainer}>
-        {insuranceDefinitions.map((def, index) => (
-          <Tooltip key={index} title={def.description} arrow>
-            <div className={styles.definitionItem}>
-              {def.title}
-            </div>
-          </Tooltip>
-        ))}
-      </div>
+    <div>
+      <FormControl variant="standard" sx={{ m: 1, minWidth: 220 }}>
+      <InputLabel id="demo-simple-select-standard-label" sx={{ fontSize: '1.5rem' }}>
+          Line of Business
+        </InputLabel>
+        <Select
+          labelId="demo-simple-select-standard-label"
+          id="demo-simple-select-standard"
+          value={age}
+          onChange={handleChange}
+          label="Insurance"
+           sx={{ paddingTop: 2 }}
+        >
+         
+          <MenuItem value={10}>Personal & Commercial Auto</MenuItem>
+          <MenuItem value={20}>Home Owners</MenuItem>
+          <MenuItem value={30}>General Liability</MenuItem>
+          <MenuItem value={40}>Commercial Property</MenuItem>
+          <MenuItem value={50}>Business Owners</MenuItem>
+          <MenuItem value={60}>Workers Compenstaion</MenuItem>
+          <MenuItem value={70}>Inland & Ocean Marine </MenuItem>
+        </Select>
+      </FormControl>
     </div>
-  );
-};
 
-export default InsuranceInfo;
+
+);}
+
+
+ 
+
+

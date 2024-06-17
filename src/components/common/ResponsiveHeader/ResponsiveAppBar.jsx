@@ -142,7 +142,7 @@ export default function ResponsiveAppBar() {
               fontFamily: "Roboto Slab",
               fontWeight: "500",
               color: "white",
-              paddingLeft: "350px",
+              paddingLeft: "600px",
             }}
           >
             Lets Learn Together, Grow Together
@@ -154,7 +154,7 @@ export default function ResponsiveAppBar() {
               aria-label="show 4 new mails"
               color="inherit"
             >
-              <Badge badgeContent={4} color="error">
+              {/* <Badge badgeContent={4} color="error">
                 <MailIcon />
               </Badge>
             </IconButton>
@@ -162,8 +162,8 @@ export default function ResponsiveAppBar() {
               size="large"
               aria-label="show 17 new notifications"
               color="inherit"
-            >
-              <Badge>
+            > */}
+              {/* <Badge>
                 <NotificationsIcon />
               </Badge>
             </IconButton>
@@ -176,7 +176,7 @@ export default function ResponsiveAppBar() {
               // onClick={handleProfileMenuOpen}
               color="inherit"
             >
-              <AccountCircle />
+              <AccountCircle /> */}
             </IconButton>
           </Box>
         </Toolbar>

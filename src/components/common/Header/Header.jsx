@@ -77,7 +77,7 @@ export const Header = () => {
     <div>
       <div className={styles.header}>
         <div className={styles.ihubLogo}>
-          <img style={{height:"100px", width:"350px"}} src={ihubLogo} alt="" />
+          {/* <img style={{height:"100px", width:"300px"}} src={ihubLogo} alt="" /> */}
         </div>
         <div className={styles.container_1}>
           <Button
@@ -95,7 +95,7 @@ export const Header = () => {
 
             // style={{ background: "green" }}
             >
-            Introduction to Insuarnce
+            Introduction to Insurance
           </Button>
           <Button
             variant="contained"
@@ -107,7 +107,10 @@ export const Header = () => {
           </Button>
         </div>
         <div className={styles.smartimslogopng}>
-          <img src={smartimslogo} alt="" />
+       
+        <img style={{height:"100px", width:"300px"}} src={smartimslogo} alt="" />
+        
+
         </div>
       </div>
       {renderMenu}

@@ -112,17 +112,28 @@ export default function ResponsiveAppBar() {
           </IconButton>
 
           <Button
-            variant="text"
-            href="/"
-            sx={{
-              fontFamily: "Roboto Slab",
-              fontSize: "20px",
-              textTransform: "none",
-              color: "white",
-            }}
-          >
-            I KNOW (Insuarnce/Information)
-          </Button>
+      variant="text"
+      href="/"
+      sx={{
+        fontFamily: 'Roboto Slab',
+        verticalAlign:'normal',
+        fontSize: '20px',
+        textTransform: 'none',
+        color: 'white',
+      }}
+    >
+      I K
+      <Box
+        component="span"
+        sx={{
+          verticalAlign: 'super',
+          fontSize: '10px', // Adjust the font size for the superscript
+        }}
+      >
+        now
+      </Box>
+      &nbsp;(Insurance/Information)
+    </Button>
 
           {/* <Search>
             <SearchIconWrapper>

@@ -201,15 +201,15 @@ const Dashboard = () => {
                 color="text.secondary"
                 sx={{ fontFamily: "Roboto Slab", fontSize: "18px" }}
               >
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
+                Some insurance policies cover unique situations   
+                "Click to uncover surprising facts!"
               </Typography>
             </CardContent>
             <CardActions>
               <Button
                 variant="contained"
                 // target="_blank"
-                href="/hierarchydemo"
+                href="/didyouknow"
                 // href="https://outlook.office.com/mail/AAMkAGQ5YjA1ZDAxLTk5MGEtNDVjOS05Mjg4LTMwMmUxMjg5Zjg0MQAuAAAAAABXFX4yMsLeSaRtRrCHtDIAAQCSSImQg6nETZGMOO88aUkyAABhwwDuAAA%3D?sourceId=Raghu.Sama%40smartims.com&email=Raghu.Sama%40smartims.com"
               >
                 Learn More

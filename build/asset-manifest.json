@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e65f6c35.css",
+    "main.js": "/static/js/main.0b3255c9.js",
+    "static/js/453.24695abd.chunk.js": "/static/js/453.24695abd.chunk.js",
+    "static/media/Policy.jpg": "/static/media/Policy.674decd43dd3992345e9.jpg",
+    "static/media/enhancements.jpg": "/static/media/enhancements.69ba4f5942c2a972da43.jpg",
+    "static/media/Billing.png": "/static/media/Billing.d079a5d9ed61dda5d532.png",
+    "static/media/what-is-insurance-meaning-and-benefits-of-insurance.jpg": "/static/media/what-is-insurance-meaning-and-benefits-of-insurance.53c9cb606ea9bb500406.jpg",
+    "static/media/image1.jpg": "/static/media/image1.8ac842effacc5f9ea2bc.jpg",
+    "static/media/Bulb.png": "/static/media/Bulb.77f3a6635ed8db96f34e.png",
+    "static/media/image3.jpg": "/static/media/image3.9592335c181683bf9fed.jpg",
+    "static/media/png": "/static/media/9eb5bb4aa8b0d62a8604aa08b74d.233fb109d241f9ba18fc.png",
+    "static/media/claims.jpg": "/static/media/claims.2f3d8cd96625d1b587a9.jpg",
+    "index.html": "/index.html",
+    "main.e65f6c35.css.map": "/static/css/main.e65f6c35.css.map",
+    "main.0b3255c9.js.map": "/static/js/main.0b3255c9.js.map",
+    "453.24695abd.chunk.js.map": "/static/js/453.24695abd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e65f6c35.css",
+    "static/js/main.0b3255c9.js"
+  ]
+}

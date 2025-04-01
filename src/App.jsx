@@ -6,6 +6,7 @@ import ClaimCenter from "./components/Base Data/ClaimCenter/ClaimCenter";
 import BillingData from "./components/Base Data/BillingCenter/BillingCenter";
 import ResponsiveAppBar from "./components/common/ResponsiveHeader/ResponsiveAppBar";
 import InsuranceInfo from "./components/Base Data/BasicInsuranceInfo/InsuranceInfo";
+import KnowInfo from "./components/Base Data/DidYouKnow/KnowInfo";
 import HaveAQuery from "./components/common/ResponsiveHeader/HaveAQuery";
 import Knowledge from "./components/Base Data/Advancement/Knowledge";
 // import cardinfo from "./components/Base Data/BillingCenter/CardInfo";
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/advancements" element={<Knowledge />} />
         <Route path="/fileupload" element={<InputFileUpload />} />
         <Route path="/transinfo" element={<TransactionInfo />} />
+        <Route path="/didyouknow" element={<KnowInfo />} />
         {/* <Route path="/cardinfo" element={<CardInfo />} /> */}
          <Route path="/" element={<Dashboard />} />
       </Routes>

@@ -1,10 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.e65f6c35.css",
-    "main.js": "/static/js/main.0b3255c9.js",
+    "main.css": "/static/css/main.151f9f54.css",
+    "main.js": "/static/js/main.63ad2329.js",
     "static/js/453.24695abd.chunk.js": "/static/js/453.24695abd.chunk.js",
     "static/media/Policy.jpg": "/static/media/Policy.674decd43dd3992345e9.jpg",
+    "static/media/CREDIT SCORE INFLUENCE.png": "/static/media/CREDIT SCORE INFLUENCE.9b8f4929df6819185fb8.png",
+    "static/media/PERSONAL PROPERTY.png": "/static/media/PERSONAL PROPERTY.802eab317040d0c57187.png",
+    "static/media/FEDERAL AND STATE.png": "/static/media/FEDERAL AND STATE.c5bed45c0e2d1119f0bd.png",
+    "static/media/STAR BUCKS.png": "/static/media/STAR BUCKS.bccdac58e80fc94ce4d3.png",
+    "static/media/Additional Expenses _ Heading.png": "/static/media/Additional Expenses _ Heading.c232c625d36d04841cb6.png",
+    "static/media/POOLS.png": "/static/media/POOLS.949f1f645c66412d60e8.png",
+    "static/media/EXCLUSIONS FOR HOME OWNERS.png": "/static/media/EXCLUSIONS FOR HOME OWNERS.1c015aa6785b8560356d.png",
+    "static/media/DEDUCTIBLES AND PREMIUMS - HOME OWNERS'.png": "/static/media/DEDUCTIBLES AND PREMIUMS - HOME OWNERS'.efdcc456098a12189429.png",
+    "static/media/TORT LAW AND LIABILITY INSURANCE.png": "/static/media/TORT LAW AND LIABILITY INSURANCE.27072ce3da35af605beb.png",
+    "static/media/HOME BASED BUSINESS COVERAGE.png": "/static/media/HOME BASED BUSINESS COVERAGE.7488a82710fd5bdc8c0f.png",
+    "static/media/COMPREHENSIVE LOSS AND UNDERWRITER EXCHANGE.png": "/static/media/COMPREHENSIVE LOSS AND UNDERWRITER EXCHANGE.a78cc087a0ff6a03e892.png",
+    "static/media/NATURAL DISASTERS AND COVERAGE.png": "/static/media/NATURAL DISASTERS AND COVERAGE.af3a78327db59d6bd582.png",
+    "static/media/INTERNATIONAL DENTISTS.png": "/static/media/INTERNATIONAL DENTISTS.043497ce13c9e512ac41.png",
+    "static/media/SR22,FR44.png": "/static/media/SR22,FR44.94d10a378646c7d31f03.png",
+    "static/media/VALUABLE ITEMS COVERAGE.png": "/static/media/VALUABLE ITEMS COVERAGE.285a089f0d06bc2d03b8.png",
+    "static/media/RISK MANAGEMENT AND INSURANCE.png": "/static/media/RISK MANAGEMENT AND INSURANCE.2f9ec8c71f511598096d.png",
+    "static/media/FLOOD INSURANCE.png": "/static/media/FLOOD INSURANCE.8acc9fdabef7ea985545.png",
     "static/media/enhancements.jpg": "/static/media/enhancements.69ba4f5942c2a972da43.jpg",
+    "static/media/DRONE.png": "/static/media/DRONE.51810d826e16df8e656a.png",
+    "static/media/CYBER.png": "/static/media/CYBER.6ec5fb864440014005dc.png",
     "static/media/Billing.png": "/static/media/Billing.d079a5d9ed61dda5d532.png",
     "static/media/what-is-insurance-meaning-and-benefits-of-insurance.jpg": "/static/media/what-is-insurance-meaning-and-benefits-of-insurance.53c9cb606ea9bb500406.jpg",
     "static/media/image1.jpg": "/static/media/image1.8ac842effacc5f9ea2bc.jpg",
@@ -13,12 +32,12 @@
     "static/media/png": "/static/media/9eb5bb4aa8b0d62a8604aa08b74d.233fb109d241f9ba18fc.png",
     "static/media/claims.jpg": "/static/media/claims.2f3d8cd96625d1b587a9.jpg",
     "index.html": "/index.html",
-    "main.e65f6c35.css.map": "/static/css/main.e65f6c35.css.map",
-    "main.0b3255c9.js.map": "/static/js/main.0b3255c9.js.map",
+    "main.151f9f54.css.map": "/static/css/main.151f9f54.css.map",
+    "main.63ad2329.js.map": "/static/js/main.63ad2329.js.map",
     "453.24695abd.chunk.js.map": "/static/js/453.24695abd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e65f6c35.css",
-    "static/js/main.0b3255c9.js"
+    "static/css/main.151f9f54.css",
+    "static/js/main.63ad2329.js"
   ]
 }

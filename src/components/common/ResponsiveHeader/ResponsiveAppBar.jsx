@@ -122,7 +122,7 @@ export default function ResponsiveAppBar() {
         color: 'white',
       }}
     >
-      I K
+      IK
       <Box
         component="span"
         sx={{
@@ -153,7 +153,7 @@ export default function ResponsiveAppBar() {
               fontFamily: "Roboto Slab",
               fontWeight: "500",
               color: "white",
-              paddingLeft: "600px",
+              paddingLeft: "800px",
             }}
           >
             Lets Learn Together, Grow Together

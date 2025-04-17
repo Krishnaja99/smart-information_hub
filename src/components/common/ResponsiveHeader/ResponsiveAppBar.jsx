@@ -1,28 +1,20 @@
 import * as React from "react";
-import { styled, alpha } from "@mui/material/styles";
+import { styled } from "@mui/material/styles";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import InputBase from "@mui/material/InputBase";
-import Badge from "@mui/material/Badge";
 import MenuItem from "@mui/material/MenuItem";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
-import AccountCircle from "@mui/icons-material/AccountCircle";
-import MailIcon from "@mui/icons-material/Mail";
-import NotificationsIcon from "@mui/icons-material/Notifications";
 import { Link } from "react-router-dom";
 import Button from "@mui/material/Button";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
   borderRadius: theme.shape.borderRadius,
-  // backgroundColor: alpha(theme.palette.common.white, 0.15),
-  "&:hover": {
-    // backgroundColor: alpha(theme.palette.common.white, 0.25),
-  },
   marginRight: theme.spacing(2),
   marginLeft: 0,
   width: "100%",
@@ -43,10 +35,8 @@ const SearchIconWrapper = styled("div")(({ theme }) => ({
 }));
 
 const StyledInputBase = styled(InputBase)(({ theme }) => ({
-  // color: "inherit",
   "& .MuiInputBase-input": {
     padding: theme.spacing(1, 1, 1, 0),
-    // vertical padding + font size from searchIcon
     paddingLeft: `calc(1em + ${theme.spacing(4)})`,
     transition: theme.transitions.create("width"),
     width: "100%",
@@ -69,6 +59,7 @@ export default function ResponsiveAppBar() {
   };
 
   const menuId = "primary-search-account-menu";
+
   const renderMenu = (
     <Menu
       anchorEl={anchorEl}
@@ -85,11 +76,24 @@ export default function ResponsiveAppBar() {
       open={isMenuOpen}
       onClose={handleMenuClose}
     >
-      <MenuItem component={Link} to="/HaveAQuery" onClick={handleMenuClose}>
-        Have a Query ? Please Drop
-      </MenuItem>
-      <MenuItem component={Link} to="/" onClick={handleMenuClose}>
-        Return To Home
+      <MenuItem
+        component={Link}
+        to="/"
+        onClick={handleMenuClose}
+        sx={{
+          // backgroundColor: "white",
+          color: "#1976d2",
+          
+          fontFamily: "cursive",
+           fontStyle :"Bold"
+          
+          
+          // backgroundColor: "White",
+          
+        
+        }}
+      >
+        Return to Home
       </MenuItem>
     </Menu>
   );
@@ -112,38 +116,29 @@ export default function ResponsiveAppBar() {
           </IconButton>
 
           <Button
-      variant="text"
-      href="/"
-      sx={{
-        fontFamily: 'Roboto Slab',
-        verticalAlign:'normal',
-        fontSize: '20px',
-        textTransform: 'none',
-        color: 'white',
-      }}
-    >
-      IK
-      <Box
-        component="span"
-        sx={{
-          verticalAlign: 'super',
-          fontSize: '10px', // Adjust the font size for the superscript
-        }}
-      >
-        now
-      </Box>
-      &nbsp;(Insurance/Information)
-    </Button>
+            variant="text"
+            href="/"
+            sx={{
+              fontFamily: "Roboto Slab",
+              verticalAlign: "normal",
+              fontSize: "20px",
+              textTransform: "none",
+              color: "white",
+            }}
+          >
+            IK
+            <Box
+              component="span"
+              sx={{
+                verticalAlign: "super",
+                fontSize: "10px",
+              }}
+            >
+              now
+            </Box>
+            &nbsp;(Insurance/Information)
+          </Button>
 
-          {/* <Search>
-            <SearchIconWrapper>
-              <SearchIcon />
-            </SearchIconWrapper>
-            <StyledInputBase
-              placeholder="Search…"
-              inputProps={{ "aria-label": "search" }}
-            />
-          </Search> */}
           <Typography
             variant="h6"
             noWrap
@@ -153,42 +148,14 @@ export default function ResponsiveAppBar() {
               fontFamily: "Roboto Slab",
               fontWeight: "500",
               color: "white",
-              paddingLeft: "800px",
+              paddingLeft: "700px",
             }}
           >
-            Lets Learn Together, Grow Together
+            Let's Learn Together, Grow Together
           </Typography>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
-            <IconButton
-              size="large"
-              aria-label="show 4 new mails"
-              color="inherit"
-            >
-              {/* <Badge badgeContent={4} color="error">
-                <MailIcon />
-              </Badge>
-            </IconButton>
-            <IconButton
-              size="large"
-              aria-label="show 17 new notifications"
-              color="inherit"
-            > */}
-              {/* <Badge>
-                <NotificationsIcon />
-              </Badge>
-            </IconButton>
-            <IconButton
-              size="large"
-              edge="end"
-              aria-label="account of current user"
-              aria-controls={menuId}
-              aria-haspopup="true"
-              // onClick={handleProfileMenuOpen}
-              color="inherit"
-            >
-              <AccountCircle /> */}
-            </IconButton>
+            {/* Add any right-side icons/buttons here */}
           </Box>
         </Toolbar>
       </AppBar>

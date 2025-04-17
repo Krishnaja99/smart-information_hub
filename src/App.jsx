@@ -13,6 +13,7 @@ import Knowledge from "./components/Base Data/Advancement/Knowledge";
 // import Dashboard2 from "./components/Dashboard2/Dashboard2";
 import InputFileUpload from "./components/Testing/FileUpload";
 import TransactionInfo from "./components/Testing/TransactionInfo";
+import InsuranceTablePage from "./components/common/Header/InsuranceTable";
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/haveaquery" element={<HaveAQuery />} />
         <Route path="/advancements" element={<Knowledge />} />
         <Route path="/fileupload" element={<InputFileUpload />} />
+        <Route path="/insurance-table" element={<InsuranceTablePage />} />
         <Route path="/transinfo" element={<TransactionInfo />} />
         <Route path="/didyouknow" element={<KnowInfo />} />
         {/* <Route path="/cardinfo" element={<CardInfo />} /> */}

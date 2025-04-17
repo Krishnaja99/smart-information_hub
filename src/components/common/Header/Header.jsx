@@ -1,4 +1,5 @@
 import React from "react";
+import State, { useState } from 'react';
 import styles from "./Header.module.css";
 import Button from "@mui/material/Button";
 import smartimslogo from "../assets/SmartIMS Logos/9eb5bb4aa8b0d62a8604aa08b74d.png";
@@ -7,10 +8,17 @@ import MenuItem from "@mui/material/MenuItem";
 import Menu from "@mui/material/Menu";
 import { Link } from "react-router-dom";
 import Tooltip from "@mui/material/Tooltip";
+import { useNavigate } from 'react-router-dom';
+import InsuranceDialog from "./InsuranceTable";
 
 export const Header = () => {
-  const [anchorEl, setAnchorEl] = React.useState(null);
+  const navigate = useNavigate();
+  const handleButtonClick = () => {
+    navigate('/insurance-table');
+  };
+  const [anchorEl, setAnchorEl] = State.useState(null);
   const isMenuOpen = Boolean(anchorEl);
+ 
 
   const handleProfileMenuOpen = (event) => {
     setAnchorEl(event.currentTarget);
@@ -158,10 +166,7 @@ export const Header = () => {
             }}
           >
             <Button
-              variant="contained"
-              href="https://smartims.sharepoint.com/:x:/s/SmartIHubInsuranceInformation/ESVpDPSo60xBvgj9910-hrMBRaqQ5t6owlj2lsbN6gqhqQ?e=vMFxBz"
-              target="_blank"
-            >
+              variant="contained" onClick={handleButtonClick}>
               Introduction to Insurance
             </Button>
           </Tooltip>
@@ -216,6 +221,7 @@ export const Header = () => {
         </div>
       </div>
       {renderMenu}
+       
     </div>
   );
 };

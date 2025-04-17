@@ -13,7 +13,8 @@ export default function PolicyTransactions() {
             variant="contained"
             style={{ backgroundColor: "red" }}
             target="_blank"
-            href="https://smartims.sharepoint.com/:f:/s/SmartIHubInsuranceInformation/EvmTvjgdIFRHq3oHGnMjdFUBzmBInB9u1-Yn_wTq652MwQ?e=n4NbKc"
+            href="https://www.youtube.com/watch?v=h7QUI972GY4
+"
           >
             Introduction to Policy Center
           </Button>

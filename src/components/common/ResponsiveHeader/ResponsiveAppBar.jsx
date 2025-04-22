@@ -9,8 +9,9 @@ import InputBase from "@mui/material/InputBase";
 import MenuItem from "@mui/material/MenuItem";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Button from "@mui/material/Button";
+import Tooltip from "@mui/material/Tooltip";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -49,6 +50,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 export default function ResponsiveAppBar() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const isMenuOpen = Boolean(anchorEl);
+  const navigate = useNavigate();
 
   const handleProfileMenuOpen = (event) => {
     setAnchorEl(event.currentTarget);
@@ -56,6 +58,10 @@ export default function ResponsiveAppBar() {
 
   const handleMenuClose = () => {
     setAnchorEl(null);
+  };
+
+  const handleInsuranceClick = () => {
+    navigate("/insurance-table");
   };
 
   const menuId = "primary-search-account-menu";
@@ -81,16 +87,9 @@ export default function ResponsiveAppBar() {
         to="/"
         onClick={handleMenuClose}
         sx={{
-          // backgroundColor: "white",
           color: "#1976d2",
-          
           fontFamily: "cursive",
-           fontStyle :"Bold"
-          
-          
-          // backgroundColor: "White",
-          
-        
+          fontWeight: "bold",
         }}
       >
         Return to Home
@@ -102,6 +101,7 @@ export default function ResponsiveAppBar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
+          {/* Left Menu Icon */}
           <IconButton
             edge="start"
             color="inherit"
@@ -115,12 +115,12 @@ export default function ResponsiveAppBar() {
             <MenuIcon />
           </IconButton>
 
+          {/* App Title */}
           <Button
             variant="text"
             href="/"
             sx={{
               fontFamily: "Roboto Slab",
-              verticalAlign: "normal",
               fontSize: "20px",
               textTransform: "none",
               color: "white",
@@ -139,23 +139,67 @@ export default function ResponsiveAppBar() {
             &nbsp;(Insurance/Information)
           </Button>
 
-          <Typography
-            variant="h6"
-            noWrap
-            component="div"
+          {/* Spacer */}
+          <Box sx={{ flexGrow: 1 }} />
+
+          {/* Right Buttons */}
+          <Box
             sx={{
-              display: { xs: "none", sm: "block" },
-              fontFamily: "Roboto Slab",
-              fontWeight: "500",
-              color: "white",
-              paddingLeft: "700px",
+              display: "flex",
+              gap: 2,
+              flexWrap: "wrap",
+              marginBottom: "5px",
             }}
           >
-            Let's Learn Together, Grow Together
-          </Typography>
-          <Box sx={{ flexGrow: 1 }} />
-          <Box sx={{ display: { xs: "none", md: "flex" } }}>
-            {/* Add any right-side icons/buttons here */}
+            <Tooltip
+              title={
+                <span style={{ fontSize: "14px", fontFamily: "Times New Roman", color: "white" }}>
+                  Your central space for questions, ideas, and clarity.
+                </span>
+              }
+              arrow
+              placement="bottom"
+            >
+              <Button
+                variant="contained"
+                href="https://teams.microsoft.com/l/channel/19%3ABVs_u8Rkp6utoIXN0ny6XH5znt21gDnnKXtQ7CW4jh01%40thread.tacv2/AskBoard?groupId=0d437b59-9202-49bf-9b66-fcdcd27cbb00&tenantId=6027c9ba-290d-41f0-81a6-035f3a3d1a6e"
+                target="_blank"
+              >
+                Ask Board
+              </Button>
+            </Tooltip>
+
+            <Tooltip
+              title={
+                <span style={{ fontSize: "14px", fontFamily: "Times New Roman", color: "white" }}>
+                  Get to know the world of Insurance
+                </span>
+              }
+              arrow
+              placement="bottom"
+            >
+              <Button variant="contained" onClick={handleInsuranceClick}>
+                Introduction to Insurance
+              </Button>
+            </Tooltip>
+
+            <Tooltip
+              title={
+                <span style={{ fontSize: "14px", fontFamily: "Times New Roman", color: "white" }}>
+                  Know more about SmartIMS
+                </span>
+              }
+              arrow
+              placement="bottom"
+            >
+              <Button
+                variant="contained"
+                href="https://www.smartims.com/"
+                target="_blank"
+              >
+                About SmartIMS
+              </Button>
+            </Tooltip>
           </Box>
         </Toolbar>
       </AppBar>

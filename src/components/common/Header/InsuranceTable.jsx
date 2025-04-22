@@ -22,8 +22,7 @@ const insuranceData = [
     category: 'Basics of Insurance',
     links: [
       { label: 'Video -1 ', url: 'https://www.youtube.com/watch?v=h7QUI972GY4' },
-      { label: 'Video -2', url: 'https://youtu.be/XFTLb9F414k' },
-      { label: 'Video -3 ', url: 'https://youtu.be/bKR_N8ETcYM' },
+      { label: 'Video -2', url: 'https://youtu.be/XFTLb9F414k' },  
     ],
   },
   {
@@ -32,26 +31,22 @@ const insuranceData = [
     links: [
       { label: 'General and Life Insurance', url: 'https://youtu.be/heHmtqhWL2w' },
       { label: 'Property and Casuality', url: 'https://youtu.be/k4xnubYlrkI' },
-      { label: 'Insurable Interest & Utmost Good Faith', url: 'https://youtu.be/C2dteEn_EYY' },
+      { label: 'Principles of Insurance', url: 'https://www.youtube.com/watch?v=C2dteEn_EYY' },
       { label: 'Subrogation', url: 'https://youtu.be/tZigJttpdas' },
       { label: 'Principal of Indemnity', url: 'https://youtu.be/EmR6Mykjtw8' },
       { label: 'Proximate Cause', url: 'https://youtu.be/7VljRzff_bg' },
-      { label: 'How Do Deductibles and Copays Work?', url: 'https://youtu.be/kT3H9pBP8fg' },
-      { label: 'Legal capacity in contract law', url: 'https://youtu.be/VlBy6dUovuk' },
       { label: 'Contracts', url: 'https://youtu.be/PLStHYD1eCk' },
       { label: 'Essentials Of Insurance Contracts', url: 'https://youtu.be/cZOInW-vcOw' },
       { label: 'Law of Large Numbers', url: 'https://www.youtube.com/watch?v=MntX3zWNWec' },
       { label: 'Hazard vs Risk', url: 'https://www.youtube.com/watch?v=PZmNZi8bon8' },
-      { label: 'Peril vs Hazard', url: 'https://www.youtube.com/watch?v=FgexrP40vF4' },
       { label: 'Bancassurance', url: 'https://www.youtube.com/watch?v=hsu6Fw92lcs' },
-      { label: 'Claims Manager', url: 'https://youtu.be/rnYj3H_LWP4' },
       { label: 'Underwriters', url: 'https://www.youtube.com/watch?v=pc954Ymchw0' },
       { label: 'Product Managers', url: 'https://youtu.be/ZiBeKrwfU90' },
       { label: 'Marketing Executives', url: 'https://youtu.be/YfBP3dGIObo' },
       { label: 'Actuary', url: 'https://youtu.be/VStZr5zRnHo' },
       { label: 'How insurance brokers help their customers (Video -1)', url: 'https://youtu.be/7s_jbYOt6xc' },
       { label: 'How insurance brokers help their customers (Video -2)', url: 'https://www.youtube.com/watch?v=3zbT8SKMlf4' },
-      { label: 'Concept, Premium, Pool', url: 'https://youtu.be/mRaOHTZSaA8' },
+     
     ],
   },
   {
@@ -60,18 +55,17 @@ const insuranceData = [
     links: [
       { label: 'Video -1', url: 'https://youtu.be/B_jhAMRBNC4' },
       { label: 'Video -2', url: 'https://youtu.be/k4xnubYlrkI' },
-      { label: 'Video -3', url: 'https://youtu.be/bSsO15TvEtA' },
-      { label: 'Video -4', url: 'https://youtu.be/DrJNxkBoCtA' },
+      { label: 'Video -3', url: 'https://youtu.be/DrJNxkBoCtA' },
     ],
   },
   {
    topic: 'PersonalAuto',
     category: 'PersonalAuto',
     links: [
-      { label: 'Video -1', url: 'https://www.youtube.com/watch?v=-Zr63hTicTU' },
-      { label: 'Video -2', url: 'https://www.youtube.com/watch?v=yJ2iU8XPIRc' },
-      { label: 'Video -3', url: 'https://www.youtube.com/watch?v=i7OPhDvtKVY' },
-      { label: 'Video -4', url: 'https://www.youtube.com/watch?v=KJnN0yKlRYk' },
+     
+      { label: 'Video -1', url: 'https://www.youtube.com/watch?v=yJ2iU8XPIRc' },
+      { label: 'Video -2', url: 'https://www.youtube.com/watch?v=i7OPhDvtKVY' },
+      { label: 'Video -3', url: 'https://www.youtube.com/watch?v=KJnN0yKlRYk' },
     ],
   },
   {
@@ -79,15 +73,15 @@ const insuranceData = [
     category: 'Home Owners',
     links: [
       { label: 'Video -1', url: 'https://youtu.be/mLgGwf7Fuhg' },
-      { label: 'Video -2', url: 'https://www.youtube.com/watch?v=PUZSIahxq-g' },
+      
     ],
   },
   {
     topic: 'Life & Health',
     category: 'Life & Health',
     links: [
-      { label: 'Video -1', url: 'https://www.youtube.com/watch?v=uGpLS_pr7oc' },
-      { label: 'Video -2', url: 'https://youtu.be/DBTmNm8D-84' },
+      
+      { label: 'Video -1', url: 'https://youtu.be/DBTmNm8D-84' },
     ],
   },
   {
@@ -105,10 +99,9 @@ const insuranceData = [
       { label: 'Video -9', url: 'https://youtu.be/Du_amRaatxc' },
       { label: 'Video -10 (Part 1)', url: 'https://youtu.be/3ey0dW0k4KI' },
       { label: 'Video -10 (Part 2)', url: 'https://youtu.be/J3BNbRfgeyc' },
-      { label: 'Video -11', url: 'https://youtu.be/seIk3qRccbM' },
-      { label: 'Video -12', url: 'https://youtu.be/WScOc-a11bk' },
-      { label: 'Video -13', url: 'https://youtu.be/CFfFpFaUXe4' },
-      { label: 'Video -14', url: 'https://youtu.be/spL7QoQ5T_8' },
+      { label: 'Video -11', url: 'https://youtu.be/WScOc-a11bk' },
+      { label: 'Video -12', url: 'https://youtu.be/CFfFpFaUXe4' },
+      { label: 'Video -13', url: 'https://youtu.be/spL7QoQ5T_8' },
     ],
   },
   {
@@ -118,9 +111,8 @@ const insuranceData = [
       { label: 'What is Underwriting and How Does The Process Work?', url: 'https://youtu.be/TdbsbWNqJzs' },
       { label: 'Purpose of Underwriting (Video -1)', url: 'https://youtu.be/UKR1fIhTJz8' },
       { label: 'Purpose of Underwriting (Video -2)', url: 'https://youtu.be/618orjzLqqY' },
-      { label: 'Rating', url: 'https://youtu.be/4OepeLoTmZE' },
       { label: 'Insurance Claim Process', url: 'https://youtu.be/I60CvXE5hkQ' },
-      { label: 'Billing System', url: 'https://youtu.be/hv5WO8R_DEU' },
+      
     ],
   },
 

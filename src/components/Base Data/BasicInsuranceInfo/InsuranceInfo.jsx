@@ -34,7 +34,7 @@ export default function SelectVariants() {
 
   return (
     <div>
-      {/* ✅ Landing Image */}
+      
       <Box
         component="img"
         src={insuranceBanner}
